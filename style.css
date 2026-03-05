@@ -23,7 +23,7 @@ body::before{
 h1{
     text-align:center;
     font-weight:600;
-    margin:100px 100px;
+    margin:60px 100px;
     font-size:70px;
 }
 
@@ -51,6 +51,9 @@ p{
     background-color:green;
     border-radius:10px;
 }
+<<<<<<< HEAD
 img:hover{
     background-color:chartreuse;
 }
+=======
+>>>>>>> 6f6d1a1a4d72ae04ba85b0fc759d44eddd49b994
