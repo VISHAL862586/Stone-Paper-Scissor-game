@@ -51,3 +51,6 @@ p{
     background-color:green;
     border-radius:10px;
 }
+img:hover{
+    background-color:chartreuse;
+}
