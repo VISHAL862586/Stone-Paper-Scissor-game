@@ -9,15 +9,26 @@
 <body>
     <h1>Rock Paper Scissor</h1>
     <div>
-        <p>Your Choice : Rock</p>
+        <p>Your Choice :<span id="userCh">Rock</span> </p>
 
-        <p>Computer's Choice : Rock</p>
-        <p class="result">Result : Draw</p>
+        <p>Computer's Choice :<span id="cmtCh">Rock</span> </p>
+        <p class="result">Result : <span id="result">Draw</span></p>
+        
     </div>
     <div class="select">
-        <button><img src="Img/rock.png"></button>
-        <button><img src="Img/paper.png"></button>
-        <button><img src="Img/scissor.png"></button>
+        <button onClick="playGame('Rock')"><img src="Img/rock.png"></button>
+        <button onClick="playGame('Paper')" ><img src="Img/paper.png"></button>
+        <button onClick="playGame('Scissors')" ><img src="Img/scissor.png"></button>
     </div>
+    <div class="history">
+        <button onclick="showHistory()">History</button>
+    </div>
+    <div id="historyBox" class="historyBox">
+        <p>Wins: <span id="winCount">0</span></p>
+        <p>Draw: <span id="drawCount">0</span></p>
+        <p>Losses: <span id="lossCount">0</span></p>
+        <button onClick="reset()" class="reset">Reset</button>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
